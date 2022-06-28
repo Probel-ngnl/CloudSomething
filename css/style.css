@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Lato'; 
+	src: url(/font/Lato-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(/font/Roboto-Regular.ttf); 
+}
 body {
     margin: 0;
 }
@@ -7,4 +15,44 @@ body {
     background-image: url(/img/Bg_1920.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+header {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px 0 200px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+.nav-bar-1-font {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Lato';
+}
+.nav-bar-1 {
+    display: inline-flex;
+}
+.nav-bar-1-links {
+    font-family: 'Roboto';
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar-1-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-bar-1-btn {
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 13px 30px;
+    border: 1px #FFFFFF solid;
+    color: #FFFFFF;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.nav-bar-1-btn:hover {
+    cursor: pointer;
 }
