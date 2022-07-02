@@ -272,6 +272,56 @@ header {
     height: 331px;
 }
 .wrapper-6 {
+    margin: 0 auto;
     height: 500px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.connect-us-bar {
+    width: 40%;
+}
+.connect-us-input {
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 15px 220px 15px 20px;
+    border-radius: 8px;
+    border: #000000 1px solid;
+}
+.connect-us-input:active, :hover, :focus {
+    outline: 0;
+}
+.connect-us-btn {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #ED4C5C;
+    padding: 15px 30px;
+    border-radius: 6px;
+    border: 1px #FFFFFF solid;
+}
+.connect-us-btn:hover {
+    cursor: pointer;
+}
+.wrapper-7 {
     margin: 0;
+    background-color: #FAFAFA;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.adress-bar {
+    margin: 0 auto;
+    width: 60%;
+}
+.adress-title {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
+}
+.adress-text {
+    font-family: 'Lato';
+    font-size: 12px;
 }
